@@ -1,4 +1,9 @@
 --
+blobstore-bucket: ((s3.bucket_name))
+s3-access-key-id: ((s3.secret_key))
+s3-secret-access-key: ((s3.acces_key))
+s3-endpoint: ((s3.address))
+s3-region-name: ((s3.region))
 opsman-configuration:
   vsphere:
     vcenter:
